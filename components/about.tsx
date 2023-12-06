@@ -10,7 +10,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-13 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -33,14 +33,6 @@ export default function About() {
         the foundation for aesthetically pleasing and functional designs. I am
         also familiar with TypeScript, Node.js and I always looking to learn new
         technologies.
-      </p>
-
-      <p>
-        As a developer, I don't just chase technological sophistication; I also
-        find joy in exploring creativity through gaming and music. When not
-        immersed in code, you might find me enjoying the{" "}
-        <span className="font-medium">Gaming world</span> or getting lost in the
-        rhythms <span className="font-medium">of inspiring music</span>
       </p>
     </motion.section>
   );
