@@ -4,7 +4,6 @@ import React from "react";
 import { Resend } from "resend";
 import { validateString, getErrorMessage } from "@/lib/utils";
 import ContactFormEmail from "@/email/contact-form-email";
-import { renderAsync } from '@react-email/render'
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
@@ -45,41 +44,3 @@ export const sendEmail = async (formData: FormData) => {
     data,
   };
 };
-
-// import { renderAsync } from "@react-email/render";
-// import { Resend } from "resend";
-
-// export const sendEmail = async (formData: FormData) => {
-//   const result = QuotationFormSchema.safeParse(formData);
-//   let data;
-
-//   if (result.success) {
-//     const { name, email, phone, website, service, message } = result.data;
-
-//     const html = await renderAsync(
-//       QoutationFormScehma({
-//         name,
-//         email,
-//         phone,
-//         website,
-//         service,
-//         message,
-//       }) as React.ReactElement,
-//     );
-
-//     try {
-//       data = await resend.emails.send({
-//         from:
-//           process.env.EMAIL_FROM_ADDRESS ||
-//           "Contact Form <onboarding@resend.dev>",
-//         to: process.env.EMAIL_TO_ADDRESS || "",
-//         subject: "Message from quotation form",
-//         reply_to: email,
-//         html: html,
-//       });
-
-//   } catch (error: unknown) {
-//       console.log(error);
-//     }
-//   }
-// };
