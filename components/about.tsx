@@ -25,8 +25,8 @@ export default function About() {
         <span className="font-medium">
           Web Development and Internet of Things (IoT)
         </span>
-        . I've focused on devolopong my{" "}
-        <span className="font-medium">Front-End </span> skils,leveraging the
+        . I've focused on devoloping my{" "}
+        <span className="font-medium">Front-End </span> skills,leveraging the
         power of {""} <span className="font-medium">React, Next.js.</span> to
         create responsive and dynamic user experiences. Proficiency in using{" "}
         <span className="font-medium">Tailwind CSS and Bootstrap</span> has laid
