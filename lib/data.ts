@@ -1,4 +1,5 @@
 import Probox from "@/public/probox.png";
+import Cyber from "@/public/cyberrecuirment.png";
 
 export const links = [
   {
@@ -31,6 +32,14 @@ export const projectsData = [
     tags: ["React.js", "Vite.js", "Tailwind CSS"],
     imageUrl: Probox,
     link:"https://medium.com/@cpslaboratory2324/probox-tempat-penyimpanan-dengan-keamanan-cerdas-menggunakan-teknologi-rfid-f4bdd1535813",
+  },
+  {
+    title: "Cyber Recuitment",
+    description:    
+      "As a Front-end Developer, my role included creating a specialized Cyber Recruitment website for aspiring Cyber Physical System assistants. The website simplifies and expedites application and registration procedures. Our platform provides a seamless and user-friendly interface, enhancing the overall recruitment experience for candidates in the dynamic field of Cyber Physical Systems.",
+    tags: ["React.js","Next.js", "Tailwind CSS"],
+    imageUrl: Cyber,
+    link:"https://cyberrecruitment.cpsrg.org/",
   },
 ] as const;
 
