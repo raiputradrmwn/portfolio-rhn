@@ -18,22 +18,11 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        I'm a third-year student pursuing a degree in{" "}
-        <span className="font-medium">Telecommunication Engineering</span>, My
-        journey into the realm of technology began in my third semester, where I
-        discovered my passion for delving into the exciting world of{" "}
-        <span className="font-medium">
-          Web Development and Internet of Things (IoT)
-        </span>
-        . I've focused on devoloping my{" "}
-        <span className="font-medium">Front-End </span> skills,leveraging the
-        power of {""} <span className="font-medium">React, Next.js.</span> to
-        create responsive and dynamic user experiences. Proficiency in using{" "}
-        <span className="font-medium">Tailwind CSS and Bootstrap</span> has laid
-        the foundation for aesthetically pleasing and functional designs. I am
-        also familiar with TypeScript, Node.js and I always looking to learn new
-        technologies.
+        I'm a final-year <span className="font-medium">Telecommunication Engineering</span> student with a strong passion for technology, especially in <span className="font-medium">Web and Mobile App Development</span> as well as <span className="font-medium">AI</span>. Since my third semester, I've been exploring the world of modern software development, focusing on building responsive and user-centric digital experiences.
+        <br /><br />
+        I specialize in <span className="font-medium">Front-End</span> development using <span className="font-medium">React</span> and <span className="font-medium">Next.js</span>, leveraging <span className="font-medium">Tailwind CSS</span> and <span className="font-medium">Bootstrap</span> to create clean and functional designs. I'm also proficient with <span className="font-medium">TypeScript</span>, <span className="font-medium">Node.js</span>, and always eager to learn and adopt new technologies to craft innovative solutions.
       </p>
+
     </motion.section>
   );
 }

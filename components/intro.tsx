@@ -14,7 +14,7 @@ export default function Intro() {
   // const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section
-     ref={ref}
+      ref={ref}
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <img
-              src="./fotocps-rhn.jpg"
+              src="./fotokotak.jpg"
               alt="profile"
               className="h-52 w-52 rounded-full object-cover border-[0.3rem] border-white shadow-xl "
             />
@@ -43,9 +43,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Raihan Putra Darmawan.</span> I'm
-        a <span className="font-bold">Front-end Developer and IoT Enthusiast.</span> I enjoy
-        building <span className="italic">sites & apps</span>.
+        <span className="font-bold">Hello, I'm Raihan Putra Darmawan.</span> I'm a
+        <span className="font-bold"> Web & Mobile App Developer</span> and
+        <span className="font-bold"> AI Enthusiast.</span>
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-6 px-4 text-lg font-medium"
